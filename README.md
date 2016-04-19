@@ -2,6 +2,7 @@
 The new `meteor test` command is AWESOME! It automatically finds your test code and runs it. However, unless you manually specify WHERE the tests should be run, Meteor will try to run them on both the client and the server.
 # Old Way
 Until now, there was only two ways to specify the target of your tests.
+
 1. Separate test files into separate `client` and `server` directories. (As they did in the [Todos App](https://github.com/meteor/todos/tree/da6f66eb1785d23eeba57299bf2a41872688b5ae/imports/ui/components))
 2. Wrap your tests in a `Meteor.isClient` or `Meteor.isServer` block, which just doesn't feel very awesome.
 
