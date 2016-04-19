@@ -12,8 +12,8 @@ Until now, there was only two ways to specify the target of your tests.
 With this package, you are now able to just change the name of the `describe` function you call and everything works seamlessly!
 ### example.test.js
 ```javascript
-import {expect} from 'praticalmeteor:chai';
-import {clientDescribe, serverDescribe, predicateDescribe} from 'ecwyne:describe-target';
+import {expect} from 'meteor/praticalmeteor:chai';
+import {clientDescribe, serverDescribe, predicateDescribe} from 'meteor/ecwyne:describe-target';
 import {Meteor} from 'meteor/meteor';
 
 // runs only on the server
