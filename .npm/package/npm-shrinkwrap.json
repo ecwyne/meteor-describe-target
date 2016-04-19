@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "ramda": {
+      "version": "0.21.0",
+      "resolved": "https://registry.npmjs.org/ramda/-/ramda-0.21.0.tgz",
+      "from": "ramda@0.21.0"
+    }
+  }
+}
