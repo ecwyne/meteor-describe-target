@@ -1,9 +1,10 @@
 Package.describe({
 	name: 'ecwyne:describe-target',
-	version: '0.0.1',
+	version: '0.0.2',
 	summary: 'Simply specify where Meteor tests should be run',
 	git: 'https://github.com/ecwyne/meteor-describe-target',
-	documentation: 'README.md'
+	documentation: 'README.md',
+	testOnly: true
 });
 
 Npm.depends({
